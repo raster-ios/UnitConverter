@@ -9,19 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     
-    enum Items: String, CaseIterable {
+    enum Units: String, CaseIterable {
     case lenghth, temp, volume
     }
     
     func getItemsArray () -> [String] {
         var arr = [String]()
-        for item in Items.allCases {
+        for item in Units.allCases {
             arr.append(item.rawValue)
         }
         return arr
     }
     
-    @State private var choosenItem = Items.temp.rawValue
+    @State private var choosenItem = Units.temp.rawValue
     
     @State private var incomingValue: Double = 0
     
@@ -44,6 +44,8 @@ struct ContentView: View {
                               format: .number,
                               prompt: Text("Enter a value"))
                         .padding()
+                    
+                    
                 }
                 
                 Spacer()
