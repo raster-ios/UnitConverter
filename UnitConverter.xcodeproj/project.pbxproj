@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9924B4A7275CCEEF00F5178C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9924B4A6275CCEEF00F5178C /* ViewController.swift */; };
 		9985A9B62759392900E52EF7 /* UnitConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985A9B52759392900E52EF7 /* UnitConverterApp.swift */; };
 		9985A9B82759392900E52EF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985A9B72759392900E52EF7 /* ContentView.swift */; };
 		9985A9BA2759393400E52EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9985A9B92759393400E52EF7 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9924B4A6275CCEEF00F5178C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9985A9B22759392900E52EF7 /* UnitConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9985A9B52759392900E52EF7 /* UnitConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterApp.swift; sourceTree = "<group>"; };
 		9985A9B72759392900E52EF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9924B4A3275CCD8F00F5178C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9924B4A6275CCEEF00F5178C /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		9985A9A92759392800E52EF7 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +63,7 @@
 		9985A9B42759392900E52EF7 /* UnitConverter */ = {
 			isa = PBXGroup;
 			children = (
+				9924B4A3275CCD8F00F5178C /* ViewController */,
 				9985A9C327596A7C00E52EF7 /* Model */,
 				9985A9B52759392900E52EF7 /* UnitConverterApp.swift */,
 				9985A9B72759392900E52EF7 /* ContentView.swift */,
@@ -150,6 +161,7 @@
 			files = (
 				9985A9C527596ACB00E52EF7 /* ModelUC.swift in Sources */,
 				9985A9B82759392900E52EF7 /* ContentView.swift in Sources */,
+				9924B4A7275CCEEF00F5178C /* ViewController.swift in Sources */,
 				9985A9B62759392900E52EF7 /* UnitConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

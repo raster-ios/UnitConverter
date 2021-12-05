@@ -58,6 +58,18 @@ struct ContentView: View {
     }
 }
 
+struct UnitView: View {
+    
+    let unit: ModelUC.Units
+    
+    @State private var choosenUnit: unit.name?
+    var body: some View {
+        Picker("Units", selection: $choosenUnit) {
+            ForEach
+        }
+    }
+}
+
 
 
 struct ContentView_Previews: PreviewProvider {
